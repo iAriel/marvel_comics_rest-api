@@ -1,0 +1,41 @@
+.title{
+    font: 900 2rem 'Roboto', Arial;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 3rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+    margin-bottom: 5rem;
+}
+
+.css-x1sij0{
+    display: flex;
+    flex-direction: column;
+
+    border: solid 2px black;
+
+    width: 15rem;
+    height: 25rem;
+}
+
+.css-x1sij0>img{
+    width: 15rem;
+    height: 20rem;
+}
+
+
+.css-11crptk{
+    text-align: center;
+    font: 900 1rem 'Roboto', Arial;
+    color: #16425B;
+}
