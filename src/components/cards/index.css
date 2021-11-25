@@ -5,6 +5,11 @@
     margin-bottom: 3rem;
 }
 
+.load{
+    display: flex;
+    justify-content: center;
+}
+
 .cards{
     display: flex;
     justify-content: space-between;
@@ -12,8 +17,8 @@
     flex-wrap: wrap;
 
     gap: 3rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 
     margin-bottom: 5rem;
 }
@@ -22,20 +27,26 @@
     display: flex;
     flex-direction: column;
 
-    border: solid 2px black;
-
-    width: 15rem;
-    height: 25rem;
+    width: 14rem;
+    height: 24rem;
 }
 
 .css-x1sij0>img{
     width: 15rem;
     height: 20rem;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+
+    margin-bottom: 1rem;
+    transition: 0.5s;
+}
+
+.css-x1sij0>img:hover{
+    opacity: 30%;
 }
 
 
-.css-11crptk{
-    text-align: center;
+.css-11crptk>p{
+    text-align: start;
     font: 900 1rem 'Roboto', Arial;
     color: #16425B;
 }
